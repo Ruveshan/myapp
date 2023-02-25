@@ -26,7 +26,7 @@ class awardList(generics.ListCreateAPIView):
     serializer_class = awardsSerializers
     queryset = awards.objects.all()
 
-class songDetail(generics.RetrieveUpdateAPIView):
+class awardDetail(generics.RetrieveUpdateAPIView):
     serializer_class = awardsSerializers
     queryset = awards.objects.all()
 
